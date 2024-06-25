@@ -11,8 +11,6 @@
       </div>
     </v-fade-transition>
   </div>
-  <P>測試重新PUSH</P>
-
 </template>
 
 <script setup lang="ts">

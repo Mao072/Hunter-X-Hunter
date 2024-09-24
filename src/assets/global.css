@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  }
+  
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .container {
+      padding: 30px;
+    }
+  }
+  

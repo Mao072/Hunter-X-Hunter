@@ -8,13 +8,13 @@
     "deploy": "npm run build && node ./deploy/ghpages.js"
   },
   "dependencies": {
-    "@mdi/font": "6.2.95",
+    "@mdi/font": "^6.2.95",
     "chart.js": "^4.4.3",
     "roboto-fontface": "*",
     "vue": "^3.4.21",
     "vue-chartjs": "^5.3.1",
     "vue-router": "^4.3.2",
-    "vuetify": "^3.5.8"
+    "vuetify": "^3.7.2"
   },
   "devDependencies": {
     "@babel/types": "^7.24.0",

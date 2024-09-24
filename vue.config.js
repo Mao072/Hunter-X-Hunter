@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/Hunter/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/Hunter/' : '/',
   outputDir: 'dist',
   assetsDir: 'static',
   productionSourceMap: false,

@@ -1,6 +1,5 @@
 module.exports = {
   publicPath: '/Hunter/',
-  // 其他有效的配置项
   outputDir: 'dist',
   assetsDir: 'static',
   productionSourceMap: false,

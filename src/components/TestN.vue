@@ -49,7 +49,7 @@ const stats = reactive({
 const highest = ref("");
 const topics = reactive([
   {//0
-    title: 'Q1 有一天你走在路上看到兩隻被拋棄的黑貓，你會怎麼做？5566',
+    title: 'Q1 有一天你走在路上看到兩隻被拋棄的黑貓，你會怎麼做？',
     options: [
       { text: 'A 帶回家', effects: { 強化系: 10, 放出系: 10, 操作系:10,變化系: 0, 具現化系: 0, 特質系:0 }, nextTopic: 1 },
       { text: 'B 不帶回家', effects: { 強化系: 0, 放出系: 0, 操作系:0,變化系: 10, 具現化系: 10, 特質系:10 }, nextTopic: 2 },

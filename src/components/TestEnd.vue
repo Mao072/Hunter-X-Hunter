@@ -14,7 +14,6 @@
   });
   
   const saying = ref('');
-  const backgroundImage = ref(''); 
   const words = reactive({
     強化系: '頭腦簡單',
     變化系: '反覆無常、又愛騙人',
@@ -23,17 +22,7 @@
     操作系: '我行我素、愛講道理',
     特質系: '有領袖氣質',
   });
-  
-  const backgroundImages = reactive({
-    強化系: require('@/assets/gon.png'),
-    變化系: require('@/assets/gon.png'),
-    具現化系: require('@/assets/gon.png'),
-    放出系: require('@/assets/gon.png'),
-    操作系: require('@/assets/gon.png'),
-    特質系: require('@/assets/gon.png'),
-  });
-  
-  // 在組件掛載時設置背景圖片
+
   onMounted(() => {
     backgroundImage.value = backgroundImages[props.highest] || require('@/assets/default_image.png');
     console.log("123")
@@ -50,7 +39,7 @@
   </script>
   
   <template>
-    <div class="test-end-container" :style="{ backgroundImage: `url('${backgroundImage}')` }">
+    <div class="test-end-container">
       <h1>{{ highest }}</h1>
       <h2>西索: {{ saying }}</h2>
       <RadarChart :stats="stats" />
